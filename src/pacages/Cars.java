@@ -5,7 +5,7 @@ public class Cars {
     String make;
     String model;
     int year;
-    double mileage;
+    String mileage;
     double price;
 
     // Setters and getters for the Cars member variables
@@ -27,10 +27,10 @@ public class Cars {
     public void setYear(int year) {
         this.year = year;
     }
-    public double getMileage() {
+    public String getMileage() {
         return mileage;
     }
-    public void setMileage(double mileage) {
+    public void setMileage(String mileage) {
         this.mileage = mileage;
     }
     public double getPrice() {

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MyClass {
     static DoublyLinkedList list = new DoublyLinkedList();
-    static MaxHeap heap = new MaxHeap(100);
+//    static MaxHeap heap = new MaxHeap(100);
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String args[])
@@ -22,7 +22,7 @@ public class MyClass {
                 case 2: list.deleteAtTail();
                     break;
                 case 3: list.deleteAtHead();
-                    heap.extraction();
+
                     break;
                 case 4: list.display();
             }
@@ -43,10 +43,10 @@ public class MyClass {
         System.out.println("Enter Year: ");
         car.setYear(sc.nextInt());
         System.out.println("Enter Mileage: ");
-        car.setMileage(sc.nextDouble());
+        car.setMileage(sc.next());
         System.out.println("Enter Price: ");
         car.setPrice(sc.nextDouble());
         list.appendAtTail(car);
-        heap.insertion(car);
+//        heap.insertion(car);
     }
 }
