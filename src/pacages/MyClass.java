@@ -7,7 +7,6 @@ import java.util.Stack;
 public class MyClass {
     static DoublyLinkedList list = new DoublyLinkedList();
     static Stack<Cars> stack = new Stack<>();
-//    static MaxHeap heap = new MaxHeap(100);
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String args[])
@@ -88,7 +87,6 @@ public class MyClass {
 
         stack.push(car);
 
-     //   heap.insertion(car);
     }
 
 }
