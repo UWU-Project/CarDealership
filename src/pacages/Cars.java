@@ -8,6 +8,17 @@ public class Cars {
     String mileage;
     double price;
 
+    public Cars() {
+    }
+
+    public Cars(String make, String model, int year, String mileage, double price) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.mileage = mileage;
+        this.price = price;
+    }
+
     // Setters and getters for the Cars member variables
     public String getMake() {
         return make;

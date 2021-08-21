@@ -1,5 +1,9 @@
 package pacages;
 
+import jdk.internal.icu.impl.NormalizerImpl;
+
+import java.util.Scanner;
+
 class Node
 {
     protected Cars data;
@@ -49,7 +53,6 @@ class Node
     {
         return data;
     }
-
 }
 
 /* Class linkedList */
@@ -149,5 +152,46 @@ public class DoublyLinkedList
             ptr = ptr.getLinkNext();
         }
         System.out.print(ptr.getData()+ "\n\n");
+    }
+
+    public Cars filter()
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is your Car Brand:");
+        String brand = sc.nextLine();
+
+        if (size == 0)
+        {
+            System.out.print("empty\n");
+            return null;
+        }
+        if (start.getLinkNext() == null)
+        {
+            if(start.getData().getMake().equals(brand) ){
+            System.out.println(start.getData() );}
+            return start.getData();
+        }
+        Node ptr = start;
+        if(start.getData().getMake().equals(brand) ){
+        System.out.print(start.getData()+ "\n");
+        return start.getData();}
+        ptr = start.getLinkNext();
+        while (ptr.getLinkNext() != null)
+        {
+            if(ptr.getData().getMake().equals(brand) ){
+            System.out.print(ptr.getData()+ "\n");
+            return ptr.getData();}
+            ptr = ptr.getLinkNext();
+        }
+        if(ptr.getData().getMake().equals(brand) ){
+        System.out.print(ptr.getData()+ "\n\n");
+        return ptr.getData();}
+
+        return null;
+    }
+
+
+
+    public void MinHeap() {
     }
 }
