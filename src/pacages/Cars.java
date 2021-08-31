@@ -26,24 +26,28 @@ public class Cars {
     public void setMake(String make) {
         this.make = make;
     }
+
     public String getModel() {
         return model;
     }
     public void setModel(String model) {
         this.model = model;
     }
+
     public int getYear() {
         return year;
     }
     public void setYear(int year) {
         this.year = year;
     }
+
     public String getMileage() {
         return mileage;
     }
     public void setMileage(String mileage) {
         this.mileage = mileage;
     }
+
     public double getPrice() {
         return price;
     }
@@ -51,9 +55,8 @@ public class Cars {
         this.price = price;
     }
 
-    public String toString()
-    {
-        return "Make: "+getMake()+ " Model: "+getModel()+ " Year: "+getYear() + " Mileage: "+getMileage() + " Price: "+getPrice();
+    public String toString() {
+        return "Make: " + getMake() + " Model: " + getModel() + " Year: " + getYear() + " Mileage: " + getMileage() + " Price: " + getPrice();
     }
 
 

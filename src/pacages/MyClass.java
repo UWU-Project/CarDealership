@@ -9,44 +9,36 @@ public class MyClass {
     static Stack<Cars> stack = new Stack<>();
     static Scanner sc = new Scanner(System.in);
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         loadSampleData();
         String choice = "y";
         int menuChoice = 0;
-        do
-        {
-            System.out.println("MENU\n1. Enter car Details\n2. Delete Last car Data\n3. Delete first Car data\n4. Display all Cars\n5. Filter a car\n6. Display Latest car\n7. Exit");
+        do {
+
+            System.out.println("-------------------------------------\n|\t\t\t\t MENU \t\t\t\t|\n-------------------------------------\n| \t1. Add Car Details\t\t\t\t|\n| " +
+                    "\t2. Display all Cars \t\t\t|\n| \t3. Display Latest car \t\t\t|\n| \t4. Delete first Car data\t\t|\n| \t5. Delete Last car Data\t\t\t|\n| " +
+                    "\t6. Filter & Buy a Car \t\t\t|\n| \t7. Exit \t\t\t\t\t\t|\n-------------------------------------\n Selection: ");
             menuChoice = sc.nextInt();
-            switch(menuChoice)
-            {
-                case 1: getCarDetails();
-                    break;
-                case 2: list.deleteAtTail();
-                    break;
-                case 3: list.deleteAtHead();
-
-                    break;
-                case 4: list.display();
-
-                    break;
-                case 5:
+            switch (menuChoice) {
+                case 1 -> getCarDetails();
+                case 2 -> list.display();
+                case 3 -> System.out.println(stack.peek());
+                case 4 -> list.deleteAtHead();
+                case 5 -> list.deleteAtTail();
+                case 6 -> {
                     Cars car = list.filter();
                     System.out.print("If you wish to buy, press 1: ");
                     int buy = sc.nextInt();
                     if (buy == 1) {
                         buyCar(car);
                     }
-                    break;
-
-                case 6:
-                    System.out.println(stack.peek());
-
+                }
             }
+
             System.out.println("Do you wish to continue? y or n");
             choice = sc.next();
 
-        }while(choice.equals("y") || choice.equals("Y"));
+        } while (choice.equals("y") || choice.equals("Y"));
 
     }
 
@@ -69,11 +61,11 @@ public class MyClass {
         System.out.println(buyerName + " bought " + buyer.keySet());
     }
 
-    public static void getCarDetails(){
+    public static void getCarDetails() {
         Cars car = new Cars();
 
 
-        System.out.println("Enter Make: ");
+        System.out.println("Enter Manufacturer: ");
         car.setMake(sc.next());
         System.out.println("Enter Model: ");
         car.setModel(sc.next());
