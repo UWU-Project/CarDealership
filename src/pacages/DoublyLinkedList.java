@@ -1,7 +1,4 @@
 package pacages;
-
-import jdk.internal.icu.impl.NormalizerImpl;
-
 import java.util.Scanner;
 
 class Node {

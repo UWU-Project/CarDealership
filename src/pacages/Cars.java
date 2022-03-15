@@ -1,5 +1,4 @@
 package pacages;
-
 public class Cars {
 
     String make;
@@ -58,6 +57,4 @@ public class Cars {
     public String toString() {
         return "Make: " + getMake() + " Model: " + getModel() + " Year: " + getYear() + " Mileage: " + getMileage() + " Price: " + getPrice();
     }
-
-
 }

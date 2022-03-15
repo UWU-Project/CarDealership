@@ -1,5 +1,4 @@
 package pacages;
-
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Stack;
@@ -14,7 +13,6 @@ public class MyClass {
         String choice = "y";
         int menuChoice = 0;
         do {
-
             System.out.println("-------------------------------------\n|\t\t\t\t MENU \t\t\t\t|\n-------------------------------------\n| \t1. Add Car Details\t\t\t\t|\n| " +
                     "\t2. Display all Cars \t\t\t|\n| \t3. Display Latest car \t\t\t|\n| \t4. Delete first Car data\t\t|\n| \t5. Delete Last car Data\t\t\t|\n| " +
                     "\t6. Filter & Buy a Car \t\t\t|\n| \t7. Exit \t\t\t\t\t\t|\n-------------------------------------\n Selection: ");
@@ -80,5 +78,4 @@ public class MyClass {
         stack.push(car);
 
     }
-
 }
