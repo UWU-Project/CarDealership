@@ -1,14 +1,14 @@
-# CAR DEALERSHIP INFORMATION SYSTEM
+# System for "Car Dealership" Using Data Structures
 
 <details open="open">
 <summary>TABLE OF CONTENT</summary>
 
-- [**INTRODUCTION**](#introduction)
-- [**FEATURES**](#features)
-- [**DATA STRUCTURES**](#data-structures)
-- [**FLOWCHART**](#flowchart)
-- [**PSEUDO CODE**](#pseudo-code)
-- [**DEMONSTRATION**](#demonstration)
+- [**Introduction**](#introduction)
+- [**Features**](#features)
+- [**Data Structures**](#data-structures)
+- [**Flowchart**](#flowchart)
+- [**Pseudo Code**](#pseudo-code)
+- [**Demonstration**](#demonstration)
 - [License](#license)
 </details>
 
@@ -19,7 +19,6 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" />
 
 “Car Dealership Information System”, is a Command Line Based Simple standalone Management Information System. whereas it is converting to a fully computerized system, reducing the paperwork to close to zero. Computerization also helps organization to minimize wastage of time and space, as well as manpower. This system is more manageable and efficient, especially to manage all the data. The handling of this project is also very simple so that anyone can understand it easily.
-
 
 ## FEATURES
 
@@ -34,7 +33,6 @@ Mainly we implemented functions to;
 7. Filter car details and buy
  
 Here, We used ADTs to solve our problem. Data types are defined by a collection of values and operations known as Abstract Data Types (ADTs). In this case, we used three ADTs, Doubly Linked List, Stack, and Hash Map which are three of the most popular data structures in computer science.
-
 
 ## DATA STRUCTURES
 
@@ -54,7 +52,6 @@ This system is more manageable and efficient, especially to manage most of the V
 ## FLOWCHART
 
 ![image](https://user-images.githubusercontent.com/64683688/158532753-2c77d2fc-f253-412a-908f-20f395efdadd.png)
-
 ## PSEUDO CODE
 
 ```python
