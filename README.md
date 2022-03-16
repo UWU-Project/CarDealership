@@ -16,7 +16,7 @@
 
 ## INTRODUCTION
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" />
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" />
 
 “Car Dealership Information System”, is a Command Line Based Simple standalone Management Information System. whereas it is converting to a fully computerized system, reducing the paperwork to close to zero. Computerization also helps organization to minimize wastage of time and space, as well as manpower. This system is more manageable and efficient, especially to manage all the data. The handling of this project is also very simple so that anyone can understand it easily.
 
