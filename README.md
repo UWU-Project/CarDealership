@@ -9,7 +9,7 @@
 - [**Flowchart**](#flowchart)
 - [**Pseudo Code**](#pseudo-code)
 - [**Demonstration**](#demonstration)
-- [License](#license)
+- [**License**](#license)
 </details>
 
 ---
